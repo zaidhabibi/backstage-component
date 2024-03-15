@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: carolyn.moore
+spec:
+  profile:
+    displayName: Carolyn Moore
+    email: carolyn.moore@example.com
+    picture: [picture_link]  
+  memberOf: [team-a]  
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: esma.berberoglu
+spec:
+  profile:
+    displayName: Esma Berberoğlu
+    email: esma.berberoglu@example.com
+    picture: [picture_link]  
+  memberOf: [team-c]  
